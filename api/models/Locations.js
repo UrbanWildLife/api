@@ -7,8 +7,23 @@
 
 module.exports = {
   attributes: {
-      name: {
+      type: {
           type: 'string',
+          enum: [
+              'cow',
+              'cat',
+              'oak',
+              'bat',
+              'bird',
+              'deer',
+              'dog',
+              'elephant',
+              'turlte',
+              'rabbit',
+              'sheep',
+              'fish',
+              'other'
+          ],
           required: true
       },
       description: {
