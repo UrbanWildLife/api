@@ -18,7 +18,7 @@ module.exports = {
           type: 'float',
           required: true
       },
-      long: {
+      lng: {
           type: 'float',
           required: true
       },
